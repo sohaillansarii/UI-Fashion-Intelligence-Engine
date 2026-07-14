@@ -5,11 +5,11 @@ This repository (UI layer) is part of the [**Fashion Intelligence Engine**](http
 
 
 
-## Live Demo
+## Live 
 - API: https://fashion-intelligence-engine.up.railway.app/docs
 - UI: https://fashion-intelligence-engine.streamlit.app
 
-## What this repo contains
+## Overview
 This is the Streamlit frontend for the Fashion Intelligence Engine — a multimodal
 fashion search system (CLIP + FAISS) that lets users search by text and refine
 results by image. This UI calls the FastAPI backend hosted on Railway to fetch
