@@ -22,8 +22,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-<<<<<<< HEAD
-=======
 
 
 
@@ -36,7 +34,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
->>>>>>> 61e8bcb (Initial Commit)
 tab1, tab2 = st.tabs(["Text Search", "Refine by Image"])
 
 with tab1:
@@ -111,10 +108,6 @@ with tab2:
         else:
             st.warning("Please upload an image first.")
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 61e8bcb (Initial Commit)
 st.markdown(
     """
     ---
@@ -124,3 +117,4 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+# THE-END 
