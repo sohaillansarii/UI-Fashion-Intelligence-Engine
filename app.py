@@ -8,57 +8,21 @@ st.set_page_config(page_title="Fashion Search", layout="wide")
 st.title(" Fashion Search Engine")
 st.caption("Search by text, refine by image ")
 
+
 st.markdown("""
 <style>
-/* Hide min/max labels */
-[data-testid="stTickBarMin"],
-[data-testid="stTickBarMax"] {
-    display: none;
-}
-
-/* Hide current value above the thumb */
-[data-testid="stSliderValue"] {
-    display: none;
-}
-
-/* Hide the tooltip that appears when hovering over sliders */
-.stSlider [data-baseweb="tooltip"] {
+/* Hide min/max labels (1 and 10) */
+div[data-baseweb="slider"] > div:nth-child(2) {
     display: none !important;
 }
 
-/* Remove hover/focus glow on slider thumb */
-div[data-baseweb="slider"] div[role="slider"] {
-    box-shadow: none !important;
-    outline: none !important;
-}
-div[data-baseweb="slider"] div[role="slider"]:hover,
-div[data-baseweb="slider"] div[role="slider"]:focus,
-div[data-baseweb="slider"] div[role="slider"]:active {
-    box-shadow: none !important;
-    outline: none !important;
-}
-div[data-baseweb="slider"] div[role="slider"]::before,
-div[data-baseweb="slider"] div[role="slider"]::after {
-    box-shadow: none !important;
-    background: none !important;
-}
-
-/* Remove hover effect on buttons */
-.stButton > button:hover {
-    background-color: inherit !important;
-    color: inherit !important;
-    border-color: inherit !important;
-    transform: none !important;
-    box-shadow: none !important;
-}
-
-/* Remove hover effect on tabs */
-.stTabs [data-baseweb="tab"]:hover {
-    background-color: inherit !important;
-    color: inherit !important;
+/* Hide tooltip */
+div[data-baseweb="tooltip"] {
+    display: none !important;
 }
 </style>
 """, unsafe_allow_html=True)
+
 
 tab1, tab2 = st.tabs(["Text Search", "Refine by Image"])
 
