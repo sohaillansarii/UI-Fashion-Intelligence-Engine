@@ -1,4 +1,4 @@
-markdown# Fashion Intelligence Engine
+# Fashion Intelligence Engine
 
 This repository (UI layer) is part of the [**Fashion Intelligence Engine**](https://github.com/sohaillansarii/Fashion-Intelligence-Engine) project.
 
