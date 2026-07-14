@@ -34,6 +34,30 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+<style>
+    /* Remove hover effect on buttons */
+    .stButton > button:hover {
+        background-color: inherit !important;
+        color: inherit !important;
+        border-color: inherit !important;
+        transform: none !important;
+        box-shadow: none !important;
+    }
+
+    /* Remove hover effect on sliders */
+    .stSlider [role="slider"]:hover {
+        box-shadow: none !important;
+    }
+
+    /* Remove hover effect on tabs */
+    .stTabs [data-baseweb="tab"]:hover {
+        background-color: inherit !important;
+        color: inherit !important;
+    }
+</style>
+""", unsafe_allow_html=True)
+
 tab1, tab2 = st.tabs(["Text Search", "Refine by Image"])
 
 with tab1:
