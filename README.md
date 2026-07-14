@@ -3,8 +3,7 @@ markdown# Fashion Intelligence Engine
 This repository (UI layer) is part of the [**Fashion Intelligence Engine**](https://github.com/sohaillansarii/Fashion-Intelligence-Engine) project.
 
 
-🔗 **Main repository (backend, notebook, full documentation):**
-https://github.com/sohaillansarii/Fashion-Intelligence-Engine
+
 
 ## Live Demo
 - API: https://fashion-intelligence-engine.up.railway.app/docs
